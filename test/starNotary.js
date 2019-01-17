@@ -64,8 +64,8 @@ contract('StarNotary', async (accs) => {
   });
 
   it('token name and symbol are available', async () => {
-    assert.equal(await instance.name.call(), 'Tobis Notray Star Token');
-    assert.equal(await instance.symbol.call(), 'TNST');
+    assert.equal(await instance.name.call(), 'Vidit Shah Star Token');
+    assert.equal(await instance.symbol.call(), 'VST');
   });
 
   it('lookup starname by token id', async () => {
